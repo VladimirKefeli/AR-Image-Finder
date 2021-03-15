@@ -13,6 +13,8 @@
 		DBEF798A25FF6C2B0046C401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEF798825FF6C2B0046C401 /* Main.storyboard */; };
 		DBEF798C25FF6C310046C401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEF798B25FF6C310046C401 /* Assets.xcassets */; };
 		DBEF798F25FF6C310046C401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEF798D25FF6C310046C401 /* LaunchScreen.storyboard */; };
+		DBEF79A025FFBD040046C401 /* screenshot2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DBEF799F25FFBD040046C401 /* screenshot2.PNG */; };
+		DBEF79A325FFBD150046C401 /* screenshot1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DBEF79A225FFBD150046C401 /* screenshot1.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DBEF798B25FF6C310046C401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBEF798E25FF6C310046C401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBEF799025FF6C310046C401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEF799F25FFBD040046C401 /* screenshot2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.PNG; sourceTree = "<group>"; };
+		DBEF79A225FFBD150046C401 /* screenshot1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		DBEF797625FF6C2A0046C401 = {
 			isa = PBXGroup;
 			children = (
+				DBEF799E25FFBBFE0046C401 /* Screenshots */,
 				DBEF798125FF6C2A0046C401 /* AR Image Finder */,
 				DBEF798025FF6C2A0046C401 /* Products */,
 			);
@@ -65,6 +70,15 @@
 				DBEF799025FF6C310046C401 /* Info.plist */,
 			);
 			path = "AR Image Finder";
+			sourceTree = "<group>";
+		};
+		DBEF799E25FFBBFE0046C401 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				DBEF79A225FFBD150046C401 /* screenshot1.PNG */,
+				DBEF799F25FFBD040046C401 /* screenshot2.PNG */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +138,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEF79A325FFBD150046C401 /* screenshot1.PNG in Resources */,
 				DBEF798525FF6C2B0046C401 /* art.scnassets in Resources */,
 				DBEF798F25FF6C310046C401 /* LaunchScreen.storyboard in Resources */,
+				DBEF79A025FFBD040046C401 /* screenshot2.PNG in Resources */,
 				DBEF798C25FF6C310046C401 /* Assets.xcassets in Resources */,
 				DBEF798A25FF6C2B0046C401 /* Main.storyboard in Resources */,
 			);
