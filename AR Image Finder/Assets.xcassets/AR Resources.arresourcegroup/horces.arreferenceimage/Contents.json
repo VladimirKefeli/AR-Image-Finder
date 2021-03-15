@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "horces.HEIC",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "centimeters",
+    "width" : 8.9151732377538817
+  }
+}
